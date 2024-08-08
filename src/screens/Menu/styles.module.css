@@ -1,0 +1,38 @@
+.categoryTitle {
+  color: #303133;
+  fill: #303133;
+  /* font-size: 3rem; */
+  text-align: center;
+  padding: 3rem 0;
+  font-weight: bold;
+}
+
+.cMaxWidth {
+  max-width: 1600px;
+}
+
+/* Spinner.css */
+.spinnerCcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full screen height */
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
